@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>渐变</title>
+
+    <style>
+        #box1 {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            margin: 50px auto;
+            text-align: center;
+            /* 欧朋浏览器 */
+            background-image: -o-linear-gradient(red, purple, blue);
+            /* Chrome Safari浏览器 */
+            background-image: -webkit-linear-gradient(red, purple, blue);
+            /* 火狐浏览器 */
+            background-image: -moz-linear-gradient(red, purple, blue);
+            /* 标准浏览器 */
+            background-image: linear-gradient(red, purple, blue);
+        }
+        #box2 {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            margin: 50px auto;
+            text-align: center;
+            /* background-image: linear-gradient(to top,red,blue); */
+            /* background-image: linear-gradient(to right,red,blue); */
+            /* background-image: linear-gradient(45deg,red,blue); */
+            /* background-image: linear-gradient(to left top,red,blue); */
+            /* 重复设置线性渐变 */
+            background-image: repeating-linear-gradient(red 20%, blue 60%) 
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="box1">线性渐变</div>
+    <hr>
+    <div id="box2"> to top </div>
+</body>
+
+</html>

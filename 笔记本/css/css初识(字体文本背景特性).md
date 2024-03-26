@@ -30,7 +30,7 @@
 
 ​		一个完整的css有两个主要部分构成：选择器以及一条或者多条声明
 
-![image-20210425164034961](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425164034961.png)
+![image-20210425164034961](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425164034961.png)
 
 ​		选择器适用于指定css样式的HTML标签，或括号内饰对该对象设置的具体样式
 
@@ -210,7 +210,7 @@
 
 ​			区别是id选择器的口诀：样式#定义，结构id调用，只能调用一次，别人切勿使用
 
-![image-20210425164124207](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425164124207.png)			
+![image-20210425164124207](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425164124207.png)			
 
 ### 		通配符选择器
 
@@ -240,7 +240,7 @@
 
 ### 		基础选择器总结
 
-![image-20210425164223479](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425164223479.png)
+![image-20210425164223479](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425164223479.png)
 
 
 
@@ -288,7 +288,7 @@
 
 ​			font-weight属性设置字体粗细
 
-![image-20210425164242214](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425164242214.png)
+![image-20210425164242214](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425164242214.png)
 
 
 
@@ -312,7 +312,7 @@
 
 ### 		字体属性总结
 
-![image-20210425164306276](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425164306276.png)
+![image-20210425164306276](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425164306276.png)
 
 
 
@@ -320,13 +320,13 @@
 
 ### 		文本属性总结
 
-![image-20210425164327853](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425164327853.png)
+![image-20210425164327853](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425164327853.png)
 
 
 
 ## 	CSS引入方式总结
 
-![image-20210425164343699](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425164343699.png)
+![image-20210425164343699](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425164343699.png)
 
 
 
@@ -537,7 +537,7 @@
 
 ​			3.高度、行高、外边距以及内边距都是可以控制的（块级元素的特点）
 
-![image-20210425165043833](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425165043833.png)
+![image-20210425165043833](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425165043833.png)
 
 
 
@@ -577,7 +577,7 @@
 
 ​			background-repeat ： repeat | no-repeat | repeat-x | repeat-y
 
-![image-20210425165305857](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425165305857.png)
+![image-20210425165305857](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425165305857.png)
 
 
 
@@ -591,7 +591,7 @@
 
 ​			参数代表的意思是，x坐标和y坐标。可以使用方位名词或者精确单位
 
-![image-20210425165320002](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425165320002.png)
+![image-20210425165320002](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425165320002.png)
 
 
 
@@ -625,7 +625,7 @@
 
 ​			background-attachment ： scroll | fixed
 
-![image-20210425165338730](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425165338730.png)
+![image-20210425165338730](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425165338730.png)
 
 
 
@@ -635,7 +635,7 @@
 
 ​			background；背景颜色 背景图片地址 背景平铺 背景图像滚动 背景图片位置 ；
 
-![image-20210425165354943](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425165354943.png)
+![image-20210425165354943](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425165354943.png)
 
 
 
@@ -659,7 +659,7 @@
 
 ​	
 
-![image-20210425165434676](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425165434676.png)
+![image-20210425165434676](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425165434676.png)
 
 
 
@@ -689,7 +689,7 @@
 
 ##### 		行高的继承
 
-![image-20210425165452419](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425165452419.png)
+![image-20210425165452419](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425165452419.png)
 
 
 
@@ -703,7 +703,7 @@
 
 ​				
 
-![image-20210425165833491](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425165833491.png)
+![image-20210425165833491](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425165833491.png)
 
 
 
@@ -719,7 +719,7 @@
 
 ​			如果是复合选择器，或有权重叠加的问题
 
-![image-20210425165847753](/Users/weijunze/Desktop/笔记本/css/css层叠样式表.assets/image-20210425165847753.png)
+![image-20210425165847753](/Users/weijunze/Desktop/webNotebook/笔记本/css/css层叠样式表.assets/image-20210425165847753.png)
 
 
 

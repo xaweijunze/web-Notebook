@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选项卡</title>
+    <style>
+        #box {
+            width: 196px;
+            margin: 50px auto;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        #box div {
+            line-height: 28px;
+            width: 49px;
+            text-align: center;
+            color: white;
+        }
+
+        #box .div1 {
+            background-color: #7eb6ff;
+            border-radius: 5px 0 0 0;
+        }
+
+        #box .div2 {
+            background-color: green;
+        }
+
+        #box .div3 {
+            background-color: red;
+        }
+
+        #box .div4 {
+            background-color: rgb(255, 211, 14);
+            border-radius: 0 5px 0 0;
+        }
+
+        #box div div {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 28px;
+            width: 196px;
+            height: 48px;
+            background-color: inherit;
+            border-radius: 0 0 5px 5px;
+            text-align: center;
+            line-height: 48px;
+            font-weight: 700;
+            font-size: 28px;
+
+        }
+
+        #box .div1:hover>div {
+            display: block;
+
+        }
+
+        #box .div2:hover>div {
+            display: block;
+
+        }
+
+        #box .div3:hover>div {
+            display: block;
+
+        }
+
+        #box .div4:hover>div {
+            display: block;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="box">
+        <div class="div1">限期
+            <div style="display: block;">
+                <span>￥512元</span>
+                <a href=""><button>立即购买</button></a>
+            </div>
+        </div>
+        <div class="div2">永久
+            <div>
+                <span>￥1433元</span>
+                <a href=""><button>立即购买</button></a>
+            </div>
+        </div>
+        <div class="div3">组合
+            <div>
+                <span>￥2144元</span>
+                <a href=""><button>立即购买</button></a>
+            </div>
+        </div>
+        <div class="div4">会员
+            <div>
+                <span>￥414元</span>
+                <a href=""><button>立即购买</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

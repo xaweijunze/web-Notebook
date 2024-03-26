@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>session1</title>
+</head>
+<body>
+    <button style="height: 30px;" onclick="jump()">跳转到session2</button>
+    <script>
+        var preson = {
+            uname: '小明',
+            age:'18'
+        }
+        var presonStr = JSON.stringify(preson);
+        console.log(presonStr);
+        
+        window.sessionStorage.setItem("person",presonStr);
+        function jump(){
+            location.replace('index2.html');
+
+        }
+    </script>
+</body>
+</html>

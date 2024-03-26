@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box1 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(7, 7, 7);
+        /* 设置圆角完整格式 2个参数 8个值 */
+        /* 水平位置/垂直位置  ： 左上角水平 右上角水平  右下角水平 左下角水平 / 左上角垂直 右上角垂直 右下角垂直 最下角垂直  */
+        border-radius: 10px 20px 30px 40px / 10px 20px 30px 40px;
+        /* 关于圆角的形成 */
+    }
+    .box2 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid red;
+        border-radius: 200px;
+    }
+    .box3 {
+        width: 100px;
+        height: 200px;
+        border: 2px solid red;
+        border-left: 100px solid red;
+        border-radius: 100px;
+    }
+</style>
+<body>
+    <div class="box1"></div>
+    <hr>
+    <div class="box2"></div>
+    <hr>
+    <div class="box3"></div>
+</body>
+</html>

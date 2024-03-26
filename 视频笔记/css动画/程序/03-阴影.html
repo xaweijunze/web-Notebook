@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text-shadow</title>
+</head>
+<style>
+    .text-shadow_div {
+        margin-top: 100px;
+        font-size: 40px;
+        text-align: center;
+        /* 
+            text-shadow: 阴影1 , 阴影2...;
+            阴影的格式：  水平偏移 垂直偏移 模糊程度 阴影颜色
+        */
+        text-shadow: 1px 1px 3px blue,2px 2px red;
+    }
+
+    .box-shadow_div {
+        width: 100px;
+        height: 100px;
+        background-color: palegreen;
+        margin: auto;
+        box-shadow: 0px 0px 0px 5px inset red;
+    }
+    .button {
+        text-align: center;
+        height: 30px;
+        width: 60px;
+        line-height: 30px;
+        margin: auto;
+        background-color: #ccc;
+        box-shadow: 3px 3px 3px rgb(99, 99, 99);
+        border-radius: 5px;
+    }
+    .button:hover {
+        box-shadow: 3px 3px 3px rgb(99, 99, 99) inset;
+    }
+    .rainbow {
+        margin: 50px auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        border: 1px solid red;
+        box-shadow: 0 0 5px 5px red,0 0 5px 10px orange,0 0 5px 15px green,0 0 5px 20px powderblue,0 0 5px 25px blue,0 0 5px 30px purple;
+    }
+
+    /* 
+        盒子阴影
+        格式： box-shadow: 阴影1,阴影2...;
+        阴影的格式：
+            水平偏移位置, 垂直偏移位置, 模糊度, 外延值, 颜色, 内置阴影或外置阴影（默认内置阴影）
+    */
+</style>
+<body>
+    <div class="text-shadow_div">hello world</div>
+    <hr>
+    <div class="box-shadow_div"></div>
+    <hr>
+    <div class="button">按钮</div>
+    <hr>
+    <div class="rainbow"></div>
+</body>
+</html>

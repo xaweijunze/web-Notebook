@@ -1,4 +1,4 @@
-#### jQuery
+####   jQuery
 
 ## 概述
 
@@ -33,7 +33,7 @@ jQuery封装了JavaScript常用的功能模块，优化了DOM操作，事件处�
 
 1. ​	下载并引入jQuery文件（在官网下载jQuery文件，放到目录下）
 
-![image-20210421212508980](/Users/weijunze/Desktop/笔记本/jQuery+AJAX/jQuery.assets/image-20210421212508980.png)
+![image-20210421212508980](/Users/weijunze/Desktop/webNotebook/笔记本/jQuery+AJAX/jQuery.assets/image-20210421212508980.png)
 
 2. 直接在页面中就可以使用jQuery了
 
@@ -286,7 +286,7 @@ toggle(speed,easing,fn)；
 
    （3）easing：（optional）用来指定切换效果，默认是swing ，可用参数linear
 
-   （4）fn：回调函数，在动画完成的时候执行的函数，每个元素执行一次
+    （4）fn：回调函数，在动画完成的时候执行的函数，每个元素执行一次
 
 ##### 上下滑动效果
 
@@ -394,8 +394,8 @@ easing：切换效果
 
 ```javascript
 $(function(){
-	$("button").click(function(){
-      $("div").aniate({
+	$("button").click(function){
+      $("div").animate({
          left:500,
          top:300,
          opacity:.4,

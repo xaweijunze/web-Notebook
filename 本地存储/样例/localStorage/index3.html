@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localStorage3</title>
+</head>
+<body>
+    从localStorage获取到的名称为：<span id="span_data"> </span>
+    <script>
+        // 获取span标签
+        var span_data = document.getElementById('span_data');
+        // 获取localStorage中的数据
+        var personStr = localStorage.getItem('person');
+        var person = null;
+        if(personStr != null && personStr.length > 0){
+            person = JSON.parse(personStr)
+            span_data.innerText=JSON.stringify(person.uname);
+        }else{
+            alert('没有获取到值');
+        }
+        console.log(personStr);
+        
+        
+    </script>
+</body>
+</html>

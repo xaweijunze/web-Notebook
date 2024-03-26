@@ -77,7 +77,7 @@
 ​	绝对定位是元素在移动位置的时候是相对于它祖先元素来说的 
 
 ```css
-		选择器	{	position:relative;	}
+		选择器	{	position:absolute;	}
 ```
 
 ​	绝对定位的特点：
@@ -109,7 +109,7 @@
 ​	语法：
 
 ```css
-选择器	{	position:relative;	}
+选择器	{	position:fixed;	}
 ```
 
 ​		固定定位的特点:
@@ -141,7 +141,7 @@
 语法：
 
 ```css
-	选择器	{	position:relative;	}
+	选择器	{	position:sticky;	}
 ```
 
 粘性定位的特点

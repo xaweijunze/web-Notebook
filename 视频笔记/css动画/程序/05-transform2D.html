@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            border: .5px solid rgb(176, 176, 176);
+        }
+        #box:hover {
+            /* 水平和垂直方向移动函数 translate() 支持一个参数代表水平位移 */
+            /* transform(-50px) 水平向右移动-50px（向左移动50px）*/
+            transform: translate(20px,50px);
+        }
+        #box2 {
+            margin: 50px auto;
+            width: 200px;
+            height: 300px;
+            border: .5px solid rgb(176, 176, 176);
+        }
+        #box2:hover {
+            /* transform: translate(0,-5px);
+            box-shadow: 0 0 5px 3px rgb(237, 237, 237); */
+
+            /* 旋转  只支持一个参数 旋转角度*/
+            /* transform: rotate(45deg); */
+
+            /* 缩放  支持两个参数 水平方向和垂直方向的缩放 也支持一个参数，就是整体缩放*/
+            transform: scale(2,1.2);
+        }
+
+        #box3 {
+            display: flex;
+            margin: 50px auto;
+            justify-content: space-between;
+            width: 400px;
+            height: 50px;
+            color: aliceblue;
+            background-color: red;
+        }
+        #box3>div{
+            width: 100px;
+            border: 1px solid red;
+            text-align: center;
+            line-height: 50px;
+        }
+        #box3:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box"></div>
+    <hr>
+    <div id="box2"></div>
+    <hr>
+    <div id="box3">
+        <div>视频500小时</div>
+        <div>视频500小时</div>
+        <div>视频500小时</div>
+        <div>视频500小时</div>
+    </div>
+</body>
+</html>

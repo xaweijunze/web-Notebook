@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localStorage1</title>
+</head>
+<body>
+    <button style="height: 30px;" onclick="jump()">跳转到localStorage2</button>
+    <script>
+       //本地存储使用的是key value数据结构
+       //注意value值只能是字符串无法存储对象
+       //数据并不会过期
+       //如果想要存储对象需要将对象转换成字符串
+       //JSON.stringify() 和 JSON.parse()
+        var preson = {
+            uname: '小明',
+            age:'18'
+        }
+        //将对象转换成字符串
+        var presonStr = JSON.stringify(preson);
+        console.log(presonStr);
+        //localStorage
+        window.localStorage.setItem("person",presonStr);
+        function jump(){
+           //跳转tag页面
+            location.replace('index2.html');
+
+        }
+    </script>
+</body>
+</html>

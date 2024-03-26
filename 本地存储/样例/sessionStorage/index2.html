@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>session2</title>
+</head>
+<body>
+    <button style="height: 30px;" onclick="jump()">跳转到session3</button>
+    <script>
+        var personStr = sessionStorage.getItem('person');
+        var person = JSON.parse(personStr);
+        person.uname = '小红'
+        personStr = JSON.stringify(person);
+        sessionStorage.setItem('person',personStr)
+        function jump(){
+            location.replace('index3.html');
+        }
+    </script>
+</body>
+</html>
